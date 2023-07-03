@@ -1,0 +1,12 @@
+Package: byr
+Type: Package
+Title: Several useful functions for daily usage
+Version: 0.1.1
+Author: BUPTer
+Maintainer: byaxb <axb@bupt.edu.cn>
+Description: Some useful functions, such as unary linear regression
+    Just for demonstration.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
