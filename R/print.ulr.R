@@ -10,8 +10,13 @@
 #'
 #' @export
 print.ulr <- function(model) {
-    cat("\n\nUnary linear regression model by BUPTer:\n")
+    model_info <- attr(model, "info")
+    cat("\n---------------------------------------")
+    cat("\n    Unary linear regression model")
+    cat("\n---------------------------------------")
     cat("\nIntercept: ", model[[1]])
     cat("\nSlope: ", model[[2]])
-    cat("\nFitted model: y = ", model[[2]], "x + ", model[[1]], "\n")
+    cat("\nFitted model: y=", model[[2]], "*x+", model[[1]], sep = "")
+    cat("\n---------------------------------------")
+    cat("\nModel created @", as.character(model_info$created_time), "\n\n", sep = "")
 }

@@ -1,7 +1,7 @@
 Package: byr
 Type: Package
 Title: Several useful functions for daily usage
-Version: 0.1.1
+Version: 0.1.3
 Author: BUPTer
 Maintainer: byaxb <axb@bupt.edu.cn>
 Description: Some useful functions, such as unary linear regression

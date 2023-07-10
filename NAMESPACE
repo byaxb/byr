@@ -2,4 +2,5 @@
 
 S3method(predict,ulr)
 S3method(print,ulr)
+S3method(summary,ulr)
 export(ulr)
